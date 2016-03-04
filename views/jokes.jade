@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h1 all jokes
+        h2
+            ol
+                each joke in jokes
+                    li= joke
+
+
+    h3
+        a(href="/") Frontpage
+
